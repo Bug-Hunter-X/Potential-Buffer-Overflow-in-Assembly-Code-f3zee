@@ -1,0 +1,1 @@
+mov eax, [ebx + ecx*4 + 0x10] ; Potential buffer overflow if ecx is not properly validated
